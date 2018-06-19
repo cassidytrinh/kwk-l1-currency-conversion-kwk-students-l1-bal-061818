@@ -15,6 +15,7 @@ def usd_to_gpb(val)
 end
 
 def usd_to_aud(val)
+  return val*1.36
 end
 
 def jpy_to_usd(val)
@@ -26,4 +27,5 @@ def gbp_to_usd(val)
 end
 
 def aud_to_usd(val)
+  return val/1.36
 end

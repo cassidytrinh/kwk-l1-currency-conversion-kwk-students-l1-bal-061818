@@ -33,7 +33,7 @@ end
 puts "How much money do you want to convert?"
 amount = gets.chomp().to_i
 
-puts "Pick from the following menu:"
+puts "Enter a test value between 1 and 8 twice to test:"
 puts "1. USD to EUR"
 puts "2. USD to JPY"
 puts "3. USD to GBP"

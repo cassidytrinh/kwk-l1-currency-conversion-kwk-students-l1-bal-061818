@@ -7,7 +7,7 @@ def eur_to_usd(val)
 end
 
 def usd_to_jpy(val)
-  
+  return val*110.06
 end
 
 def usd_to_gpb(val)
@@ -18,6 +18,7 @@ def usd_to_aud(val)
 end
 
 def jpy_to_usd(val)
+  return val/110.06
 end
 
 def gbp_to_usd(val)
